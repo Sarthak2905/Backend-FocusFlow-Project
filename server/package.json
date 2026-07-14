@@ -1,0 +1,41 @@
+{
+  "name": "backend-focusflow-project",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [
+    "backend",
+    "Project",
+    "Architecture",
+    "project",
+    "work",
+    "Flow"
+  ],
+  "homepage": "https://github.com/Sarthak2905/Backend-FocusFlow-Project#readme",
+  "bugs": {
+    "url": "https://github.com/Sarthak2905/Backend-FocusFlow-Project/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sarthak2905/Backend-FocusFlow-Project.git"
+  },
+  "license": "ISC",
+  "author": "Sarthak Hendre",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.7.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
