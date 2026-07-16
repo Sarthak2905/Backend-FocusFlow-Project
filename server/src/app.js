@@ -1,6 +1,7 @@
 import express from "express";
 import cors from "cors";
 import cookieParser from "cookie-parser";
+import authRoutes from "./routes/auth.routes.js"
 
 const app = express();
 
@@ -26,5 +27,8 @@ app.get("/", (req,res) =>{
         message:"TaskFlow Backend is Running",
     });
 });
+
+// Authentication Routes
+app.use("/api/v1/auth", authRoutes);
 
 export default app;
